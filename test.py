@@ -7,3 +7,5 @@ Image = Image.open(r"C:\Users\james\OneDrive\桌面\test.jpg").convert('L')
 # 影像辨識
 text = pytesseract.image_to_string(Image)
 print(text)
+
+# 來做個github測試
